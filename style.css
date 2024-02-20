@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgb(255, 228, 233);
+}
+#dropdown-cart{
+    background-color: pink;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+}
+.cart:hover #dropdown-cart{
+    display: flex;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+i{
+    font-size: 20px;
+}
+.products{
+    display: flex;
+
+}
+.card{
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card img{
+    width: 100%;
+}
+button{
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: pink;
+}
+.cart img{
+    width: 200px;
+    
+}
